@@ -12,10 +12,23 @@
 
     <h1 class="text-center mt-8">Search Your Fevarite Food</h1>
     <div class="input-group mb-3 w-50 mx-auto">
-        <input type="text" class="form-control" placeholder="Search Your Fevarite Food" aria-label="Recipient's username"
+        <input id="search-field" type="text" class="form-control" placeholder="Search Your Fevarite Food" aria-label="Recipient's username"
             aria-describedby="button-addon2">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        <button onclick="searchFood()" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
     </div>
+<!-- search single  meal  details -->
+<div id="meal-details" >
+    
+
+</div>
+    <!-- End single  meal  details -->
+
+<!-- search all  meal  details -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+
+    </div><!-- End all  meal  details -->
+
+        
 
 <script src="Js/mealDb.js"></script>
 </body>
